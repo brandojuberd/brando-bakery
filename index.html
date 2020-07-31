@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <title>Brando Bakery</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1>Brando Bakery</h1>
+    </header>
+
+    <div class="cart" id ="cart">
+      <button  class="cartButton" id = "cartButton">
+        <img src="img/cart.jpg" alt="">
+      </button>
+      <div class="dropdown" id = "dropdown">
+        <section class = "cartItem" id="cartItem1">
+          
+          <img src="img/TawarGandum.jpeg" alt="TawarGandum">
+          <section>
+            Jumlah = <span id="totalItemCart1">0</span>
+          </section>
+          <button class = "cancelItem" id = "cancelItem1">X</button>
+        </section>
+
+
+        <section class = "cartItem" id="cartItem2">
+          
+          <img src="img/Sourdough.jpeg" alt="Sourdough">
+          <section>
+            Jumlah = <span id="totalItemCart2">0</span>
+          </section>
+          <button class = "cancelItem" id = "cancelItem2">X</button>
+        </section>
+
+
+
+        <section class = "cartItem" id="cartItem3">
+
+          <img src="img/Baguette.jpeg" alt="Baguette">
+          <section>
+            Jumlah = <span id="totalItemCart3">0</span>
+          </section>
+          <button class = "cancelItem" id = "cancelItem3">X</button>
+        </section>
+        
+        <section>
+          Total
+          <br>
+          Rp. <span id = "allTotal">0</span>
+        </section>
+      </div>
+    </div>
+
+
+
+    <main>
+
+      <div class = "container" id="breadList">
+        <section class = "item" id = "item1">
+          <img src="img/TawarGandum.jpeg" alt="TawarGandum">
+          <section class = "itemDesc">
+            <h3>Roti Tawar Gandum</h3>
+            <br>
+            <p>Dibuat dengan tepung gandum pilihan, cocok untuk sandwich </p>
+          </section>
+
+          <section class = "order">
+            <section>
+              Harga : Rp. 20.000
+            </section>
+            <section>
+              Jumlah: <span id="totalItem1">0</span>
+              <button id="addItem1">+</button>
+              <button id="subItem1">-</button>
+            </section>
+            <section>
+              <button class= "orderButton1" id="orderItem1">Order</button>
+            </section>
+          </section>
+
+
+        </section>
+
+        <br>
+
+        <section class = "item" id = "item2">
+          <img src="img/Sourdough.jpeg" alt="Sourdough">
+          <section class = "itemDesc">
+            <h3>Sourdough</h3>
+            <br>
+            <p>Dibuat dengan ragi alami yang dibuat dengan cara tradisional</p>
+          </section>
+
+          <section class = "order">
+            <section>
+              Harga : Rp. 50.000
+            </section>
+            <section>
+              Jumlah: <span id="totalItem2">0</span>
+              <button id="addItem2">+</button>
+              <button id="subItem2">-</button>
+            </section>
+            <section>
+              <button class= "orderButton2" id="orderItem2">Order</button>
+            </section>
+          </section>
+
+        </section>
+
+        <br>
+
+        <section class = "item" id = "item3">
+          <img src="img/Baguette.jpeg" alt="Baguette">
+          <section class = "itemDesc">
+            <h3>Baguette</h3>
+            <br>
+            <p>Roti khas Eropa</p>
+          </section>
+
+          <section class = "order">
+            <section>
+              Harga : Rp. 40.000
+            </section>
+            <section>
+              Jumlah: <span id="totalItem3">0</span>
+              <button id="addItem3">+</button>
+              <button id="subItem3">-</button>
+            </section>
+            <section>
+              <button class= "orderButton3" id="orderItem3">Order</button>
+            </section>
+          </section>
+
+        </section>
+
+
+
+      </div>
+
+    </main>
+
+  
+
+
+
+    
+
+
+    <script src= "script.js"></script>
+  </body>
+
+</html>
